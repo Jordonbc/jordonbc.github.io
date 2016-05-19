@@ -1,0 +1,93 @@
+@media screen and (max-width: 1335px) { /* This is the mobile website */
+body {
+	float: none;
+	background-color: #0af;
+	width: 98%;
+}
+
+iframe {
+	width: 75%;
+	height: 500px;
+}
+
+video {
+	width: 75%;
+	height: auto;
+}
+
+.wrapper {
+	font-family: 'Titillium Web', sans-serif;
+	float: none;
+	margin-left:auto;
+	margin-right:auto;
+	width: 95%;
+	border:1px black solid;
+	background: #ffffff;
+	padding-bottom: 15px;
+}
+
+nav {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+	width: 95%;
+}
+nav img {
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+nav a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+}
+nav a:hover:not(.active) {
+	background-color: #0a0;
+}
+nav .active {
+	background-color: #0b0;
+}
+p {
+	width: 90%;
+	text-align: left;
+}
+li {
+	width: 90%;
+	text-align: left;
+}
+.image {
+	width: 75%;
+	max-width: 250px;
+}
+.download {
+	display: inline-block;
+	background-color: #070;
+	color: #fff;
+	margin: auto;
+	padding: 5px;
+	border:2px black solid;
+	width: 50%;
+}
+.download:hover {
+	background-color: #0a0;
+}
+p:hover .secret {
+	display: inherit;
+	width: 50px;/
+}
+p .secret {
+	display: none;
+	width: 50px;
+}
+}
