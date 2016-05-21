@@ -63,12 +63,18 @@ p {
 	text-align: left;
 }
 .requirements {
+	width: 90%;
 	text-align: center;
 }
 .requirements ul{
 	display: inline-block;
 	text-align: left;
 }
+
+table {
+	style="overflow-x:auto;"
+}
+
 li {
 	width: 90%;
 	text-align: left;
