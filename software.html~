@@ -32,7 +32,29 @@
 						<p>This is some software I wrote:</p>
 						
 						<article>
-							<h2>Glass OS</h2>
+							<br>
+							<h1>Introducing</h1>
+							
+							<h3>Jordon's Online Browser</h3>
+							<img class="largeImage" src="images/images/webBrowser.png" alt="Jordon's Online Browser" longdesc="This is my own Web browser I made using webkit and python 3"/>
+							<p>Jordon's Online Browser is a web browser that uses webkit and python 3. The web browser is still in development and will be
+							a part of Jordon's Desktop Environment.</p>
+							
+							<a class="download" href="files/download/Jordon's Online Browser.zip" target="_blank">Download Now!</a>
+							
+							<div align="center" class="requirements">
+							<ul>
+								<h4>Requirements</h4>
+								
+								<li>Python 3</li>
+								<li>Python PyQt4</li>
+								<li>Python requests</li>
+								<li>Python pickle</li>
+								<li>Python gi</li>
+							</ul>
+							</div>
+							
+							<h3>Glass OS</h3>
 							<p>Glass OS is my most updated program. Its basically a software overlay that goes over the current operation system such Microsoft Windows or Linux.
 							It can be ran in full-screen more or it can run in windowed mode by pressing "ESC". Glass OS is a Graphical user interface that allows the user to customise their user interface.
                             Glass OS currently uses over 2,000 lines of python code and I will continue to develop it for the next few years.</p>
@@ -41,16 +63,13 @@
 							<br>
 							<a class="download" href="https://github.com/Jordonbc/GlassOS.git" target="_blank">The repository link</a>
 							
-							<h2></h2>
-							<p></p>
-							
-							<h2>Jpad</h2>
+							<h3>Jpad</h3>
 							<p>Jpad is a text editor like notepad or notepad++. It is designed to give you quick access to tools easily without loosing any functionality.
 							It is included in Jordon OS, Glass OS and JDE and allows you to edit a wide range of files.</p>
 							<img class="image" src="images/images/jpad.JPG" width="device-width" alt="Jpad image"/>
 							<!--<a class="download" href="files/download/" target="_blank">Download Now!</a>-->
 							
-							<h2>Jordon OS</h2>
+							<h3>Jordon OS</h3>
 							<p>Jordon OS is an older version of Glass OS that is a command line interface. It has some the same functionality as Glass OS but is less user-friendly as it uses the command line interface.</p>
 							<p>Here's the video:</p>
 							<video controls>
@@ -59,10 +78,11 @@
 							</video>
 							<a class="download" href="files/download/jordonOS.zip" target="_blank">Download Jordon OS v2</a>
 							<br>
+							<br>
 							<a class="download" href="files/download/jordonOS.zip" target="_blank">Download the User Manual for Jordon OS v2</a>
 							
 							
-							<h2>Currency Converter</h2>
+							<h3>Currency Converter</h3>
 							<p>Currency Converter is a program that is used to convert currency from one to another.</p>
 							<a class="download" href="files/download/Currency Converter.zip" target="_blank">Download Now!</a>
 						</article>

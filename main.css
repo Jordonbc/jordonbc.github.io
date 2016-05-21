@@ -15,8 +15,11 @@ video {
 	width: 640px;
 	height: 480px;
 }
+.largeImage {
+	width: 500px;
+	}
 .image {
-	width:300px;
+	width: 300px;
 }
 .download {
 	display: inline-block;

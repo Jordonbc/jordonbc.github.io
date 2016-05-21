@@ -1,18 +1,37 @@
-@media screen and (max-width: 1335px) { /* This is the mobile website */
+@media screen and (min-width: 1336px) {
+
+	
 body {
 	float: none;
 	background-color: #0af;
-	width: 98%;
+	width: 99%;
 }
-
 iframe {
-	width: 75%;
-	height: 500px;
+	width: 640px;
+	height: 480px;
 }
 
 video {
-	width: 75%;
-	height: auto;
+	width: 640px;
+	height: 480px;
+}
+.largeImage {
+	width: 500px;
+	}
+.image {
+	width: 300px;
+}
+.download {
+	display: inline-block;
+	background-color: #070;
+	color: #fff;
+	margin: auto;
+	padding: 5px;
+	border:2px black solid;
+	width: 200px;
+}
+.download:hover {
+	background-color: #0a0;
 }
 
 .wrapper {
@@ -20,7 +39,7 @@ video {
 	float: none;
 	margin-left:auto;
 	margin-right:auto;
-	width: 95%;
+	width: 80%;
 	border:1px black solid;
 	background: #ffffff;
 	padding-bottom: 15px;
@@ -33,7 +52,7 @@ nav {
 	margin-right:auto;
     overflow: hidden;
     background-color: #191;
-	width: 95%;
+	width: 80%;
 }
 nav img {
 	float: left;
@@ -58,47 +77,19 @@ nav a:hover:not(.active) {
 nav .active {
 	background-color: #0b0;
 }
+
 p {
 	width: 90%;
 	text-align: left;
 }
-.requirements {
-	width: 90%;
-	text-align: center;
-}
-.requirements ul{
-	display: inline-block;
-	text-align: left;
-}
-li {
-	width: 90%;
-	text-align: left;
-}
-.largeImage {
-	width: 75%;
-}
-.image {
-	width: 75%;
-	max-width: 250px;
-}
-.download {
-	display: inline-block;
-	background-color: #070;
-	color: #fff;
-	margin: auto;
-	padding: 5px;
-	border:2px black solid;
-	width: 50%;
-}
-.download:hover {
-	background-color: #0a0;
-}
+
+
 p:hover .secret {
 	display: inherit;
-	width: 50px;/
+	width: 100px;
 }
 p .secret {
 	display: none;
-	width: 50px;
+	width: 100px;
 }
 }
