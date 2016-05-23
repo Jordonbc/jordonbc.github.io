@@ -66,7 +66,7 @@
 							<h3>Jpad</h3>
 							<p>Jpad is a text editor like notepad or notepad++. It is designed to give you quick access to tools easily without loosing any functionality.
 							It is included in Jordon OS, Glass OS and JDE and allows you to edit a wide range of files.</p>
-							<img class="largeImage" src="images/images/jpad.JPG" width="device-width" alt="Jpad image"/>
+							<img class="image" src="images/images/jpad.JPG" width="device-width" alt="Jpad image"/>
 							<!--<a class="download" href="files/download/" target="_blank">Download Now!</a>-->
 							
 							<h3>Jordon OS</h3>
