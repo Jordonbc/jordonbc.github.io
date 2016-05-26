@@ -7,7 +7,7 @@ body {
 
 iframe {
 	width: 75%;
-	height: 500px;
+	height: auto;
 }
 
 video {
