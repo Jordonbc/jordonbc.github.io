@@ -105,7 +105,7 @@ p .secret {
 
 
 .cssbar {
-	display: inline-block;
+	display: none;
 	list-style-type: none;
 	margin-left:auto;
 	margin-right:auto;
