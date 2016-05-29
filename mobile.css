@@ -101,4 +101,33 @@ p .secret {
 	display: none;
 	width: 50px;
 }
+
+
+
+.cssbar {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.cssbar a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+.cssbar a:hover:not(.active) {
+	background-color: #0a0;
+}
+.cssbar a .active {
+	background-color: #0b0;
+}
 }

@@ -107,4 +107,39 @@ p .secret {
 	display: none;
 	width: 100px;
 }
+
+
+
+.cssbar {
+	display: inline-block;
+	list-style-type: none;
+	margin-left:auto;
+	margin-right:auto;
+    overflow: hidden;
+    background-color: #191;
+	width: 80%;
+}
+.cssbar img {
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+}
+.cssbar a {
+	font-family: 'PT Sans Narrow', sans-serif;
+	float: left;
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 16px;
+    text-decoration: none;
+}
+.cssbar a:hover:not(.active) {
+	background-color: #0a0;
+}
+.cssbar .active {
+	background-color: #0b0;
+}
 }
