@@ -17,19 +17,22 @@ body {
     height: 99%;
 }
 iframe {
-	width: 640px;
-	height: 480px;
+	width: 75%;
+    height: 360px;
 }
 
 video {
-	width: 640px;
-	height: 480px;
+	width: 75%;
 }
 .large {
-	width: 1000px;
+	width: 75%;
 	}
+	
+.meImage {
+    width: 25%;
+}
 .image {
-	width: 300px;
+	width: 50%;
 }
 .download {
 	display: inline-block;
