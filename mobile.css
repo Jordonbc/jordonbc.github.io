@@ -1,8 +1,13 @@
-@media screen and (max-width: 1335px) { /* This is the mobile website */
+.meImage {
+    width: 50%;
+    float: none;
+}
+
 body {
 	float: none;
 	background-color: #0af;
-	width: 98%;
+	width: 100%;
+    position: relative;
 }
 
 iframe {
@@ -23,6 +28,7 @@ video {
 	border:1px black solid;
 	background: #ffffff;
 	padding-bottom: 15px;
+    position: relative;
 }
 
 nav {
@@ -129,5 +135,4 @@ p .secret {
 }
 .cssbar a .active {
 	background-color: #0b0;
-}
 }

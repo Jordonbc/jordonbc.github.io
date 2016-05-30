@@ -30,6 +30,7 @@ video {
 	
 .meImage {
     width: 25%;
+    float: right;
 }
 .image {
 	width: 50%;
