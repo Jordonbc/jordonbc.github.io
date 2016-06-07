@@ -133,13 +133,21 @@ p .secret {
 }
 .cssbar a {
 	font-family: 'PT Sans Narrow', sans-serif;
-	float: left;
 	display: block;
     color: white;
     text-align: center;
     padding: 21px 16px;
     text-decoration: none;
 }
+
+.cssbar .left {
+    float: left;
+}
+
+.cssbar .right {
+    float: right;
+}
+
 .cssbar a:hover:not(.active) {
 	background-color: #0a0;
 }
