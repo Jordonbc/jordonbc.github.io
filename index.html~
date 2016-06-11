@@ -1,6 +1,12 @@
 <!DOCTYPE HTML> <!-- Sets the document type to HTML 5 -->
 <html> <!-- Defines HTML code, for browser compatibility -->
 	<head> <!-- Defines the header of the website -->
+		
+		<meta name="author" content="Jordon" >
+		<meta name="description" content="Jordon Brooks">
+		<meta name="keywords" content="Jordon, Brooks, Jordon's, Software, jordonbc's, Website, GlassOS, Glass, OS,
+		Jpad, Open, Source, web, browser">		
+		
 		<title>Jordon's Website - Home</title> <!-- Sets the title of the website-->
 		
 		<meta charset="UTF-8"> <!-- Sets the character set used by the website -->
@@ -32,7 +38,7 @@
 	<!-- Defines the Body of the website (the content you can see) -->
 	
 	<body>
-        <div class="center"> <!-- Centre's the header -->
+        <div align="center"> <!-- Centre's the header -->
 			<div class="topbar"> <!-- defines the top-bar -->
 					<nav> <!-- Defines HTML 5 Navigation -->
                         <!-- Displays the website logo -->
