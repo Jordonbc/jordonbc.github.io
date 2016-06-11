@@ -32,7 +32,7 @@
 	<!-- Defines the Body of the website (the content you can see) -->
 	
 	<body>
-        <div align="center"> <!-- Centre's the header -->
+        <div class="center"> <!-- Centre's the header -->
 			<div class="topbar"> <!-- defines the top-bar -->
 					<nav> <!-- Defines HTML 5 Navigation -->
                         <!-- Displays the website logo -->
