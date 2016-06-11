@@ -38,8 +38,9 @@
 				</div>
 			<div class="wrapper" width="device-width">
 				<content>
-					<article>
+					<aside>
 						<h1>Hardware</h1>
+					</aside>
 						<p>I have built several computers in the past. On this webpage i will show you how to build computers and my specifcations of all my devices.</p>
 						
 						<p>Required Parts for a computer to Function:</p>
@@ -186,7 +187,6 @@
 							</tr>
 						  </tbody>
 						</table>
-					</article>
 			</div>
 			<br>
 			<br>

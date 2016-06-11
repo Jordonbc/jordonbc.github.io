@@ -38,7 +38,6 @@
 				</div>
 			<div class="wrapper" width="device-width">
 				<content>
-					<article>
 						<h1>My Entire Story on how I became interested with computers</h1>
 						
 						<p>Once upon a time there was a young boy called Jordon, he liked using computers for playing games and surfing the Internet. When he was about five he got his first computer that
@@ -49,7 +48,6 @@
 						When he got to year 10 he started programing on a small computer called a raspberry pi. His parents had also bought him a raspberry pi for dummies and Jordon used thats
 						book to learn how to make a simple website. As years passed he developed his skills and branched his programming into many more languages. - A true story.</p>
 						<img class="image" src="images/images/me.png" alt="This is me!"/>
-					</article>
 				</content>
 			</div>
 			<br>
