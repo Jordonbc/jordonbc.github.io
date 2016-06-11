@@ -1,24 +1,30 @@
-<!DOCTYPE html>
-<html>
-	<head>
-		<title>Jordon's Website - Software</title>
-		<meta charset="UTF-8">
+<!DOCTYPE html> <!-- Defines the document type to HTML 5 -->
+<html> <!-- Sets the page to HTML 5 for compatibility with browsers -->
+	<head> <!-- Defines the Header of the page -->
+		<title>Jordon's Website - Software</title> <!-- Sets the title of the page -->
+		<meta charset="UTF-8"> <!-- Sets the character set used the the website -->
+
+		<!-- Cascading Style sheets for the website -->		
+		
 		<link rel="stylesheet" type="text/css" href="main.css" media="screen and (min-width: 1000px)">
 		<link rel="stylesheet" type="text/css" href="mobile.css" media="screen and (max-width: 999px)">
+		
+		<!-- For the user Themes -->		
+		
 		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
 		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
 		
-		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark">
-		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange">
+		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark"> <!-- Dark Theme -->
+		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange"> <!-- Orange Theme -->
 		
-		<script type="text/javascript" src="scripts/styleSwitcher.js"></script>
+		<script type="text/javascript" src="scripts/styleSwitcher.js"></script> <!-- JavaScript for the CSS Changer -->
 		
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-	</head>
-	<body>
-		<div align="center">
-			<div class="topbar">
-					<nav>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- View-port -->
+	</head> <!-- Closes the header -->
+	<body> <!-- Defines the content of the page -->
+		<div align="center"> <!-- Center's the Navigation bar -->
+			<div class="topbar"> <!-- Defines the Top bar -->
+					<nav> <!-- The HTML 5 Navigation tags -->
 						<img src="images/title/logo.png" alt="My logo" width="60" height="60"/>
 						<a href="index.html">Home</a>
 						<a class="active" href="software.html">Software</a>

@@ -2,6 +2,7 @@
 <html> <!-- Defines HTML code, for browser compatibility -->
 	<head> <!-- Defines the header of the website -->
 		<title>Jordon's Website - Home</title> <!-- Sets the title of the website-->
+		
 		<meta charset="UTF-8"> <!-- Sets the character set used by the website -->
 		
 		<!-- Links the Cascading style sheets to the website -->
@@ -16,7 +17,7 @@
 		
 		<!-- Links alternative style sheets so that the user can choose their own -->
         
-		<link rel="stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark">
+		<link rel="alternate stylesheet" type="text/css" href="styles/dark/darkTheme.css" title="dark">
 		<link rel="alternate stylesheet" type="text/css" href="styles/orange/orangeTheme.css" title="orange">
 
 		<!-- JavaScript for switching Cascading style sheet -->
@@ -71,17 +72,20 @@
 						<script src="http://feeds.feedburner.com/JordonsItBlog?format=sigpro" type="text/javascript" ></script>
 						
 						<h1>Welcome to Jordon's Website!</h1> <!-- The title of the website -->
-						<article>
+						<article> <!-- Defines an article -->
 							<p><img class="meImage" src="images/images/me.png" alt="This is a picture of me."/> <!-- A picture of me -->
 							This website has programs that I have made, all my achievements, hardware and software videos and tips and more.</p>						
 							<p>Hello my name is Jordon, I like computers and I am good at programming. I have even developed this website through code.
 							I know quite a lot about programming, I know how to code in: Python, HTML, CSS, VBA, JavaScript, C# and I am currently learning to code in C++ by watching this <a href="https://www.youtube.com/watch?v=tvC1WCdV1XU&list=PLAE85DE8440AA6B83&index=1" target="_blank">series</a>.</p>
 							<p>This website is also going to improve my skills as I am also coding it. At the moment the website has my programs
 							that I have made in the past. On this website I also have my life story and what I did in the past to make me good on computers</p>
+							
+							<!-- Some space for the CSS bar -->
+							
 							<p>&nbsp</p>
 							<p>&nbsp</p>
 							<p>&nbsp</p>
-						</article>
+						</article> <!-- Closes the article -->
 				</content>
 			</div>
 			<br>
