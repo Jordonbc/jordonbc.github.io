@@ -25,6 +25,9 @@ nav
 {
     background-color: #000;
 }
+nav a {
+    color: #fff;
+}
 
 nav a:hover:not(.active) {
 	background-color: #e50;
@@ -56,4 +59,7 @@ h3
 div
 {
     color: #aaa;
+}
+.cssbar a{
+    color: #fff;
 }
