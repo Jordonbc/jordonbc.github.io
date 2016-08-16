@@ -6,8 +6,10 @@
 body {
 	float: none;
 	background-color: #0af;
-	width: 95%;
+	width: 100%;
+    max-width: 100%;
     position: relative;
+    overflow-x: hidden;
 }
 
 iframe {
