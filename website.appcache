@@ -17,8 +17,16 @@ styles/orange/orangeTheme.css
 
 # IMAGES
 favicon.ico
-images/*
-
+images/title/logo.png
+images/title/logo1.png
+images/images/currencyConverterCode.PNG
+images/images/currencyConverter.PNG
+images/images/JDE.PNG
+images/images/jpad.JPG
+images/images/me.JPG
+images/images/me.png
+images/images/SpaceMasterLogo.png
+images/images/webBrowser.png
 
 # Resources that require the user to be online.
 NETWORK:
