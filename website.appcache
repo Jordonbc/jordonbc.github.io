@@ -1,0 +1,35 @@
+CACHE MANIFEST
+# 29-09-2016:v1
+
+# Explicitly cached 'master entries'.
+CACHE:
+
+# PAGES
+index.html
+about.html
+games.html
+hardware.html
+software.html
+links.html
+sitemap.html
+
+# CSS
+main.css
+mobile.css
+styles/orange/orangeTheme.css
+
+# IMAGES
+favicon.ico
+images/
+
+
+# Resources that require the user to be online.
+NETWORK:
+*
+
+# static.html will be served if main.py is inaccessible
+# offline.jpg will be served in place of all images in images/large/
+# offline.html will be served in place of all other .html files
+FALLBACK:
+# /main.py /static.html
+# images/large/ images/offline.jpg
