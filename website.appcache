@@ -1,9 +1,6 @@
 CACHE MANIFEST
 # 29-09-2016:v1
 
-# Explicitly cached 'master entries'.
-CACHE:
-
 # PAGES
 index.html
 about.html
