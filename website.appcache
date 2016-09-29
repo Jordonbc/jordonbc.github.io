@@ -17,7 +17,7 @@ styles/orange/orangeTheme.css
 
 # IMAGES
 favicon.ico
-images/
+images/*
 
 
 # Resources that require the user to be online.
