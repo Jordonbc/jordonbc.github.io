@@ -1,0 +1,64 @@
+<!DOCTYPE html> <!-- Defines the document type to HTML 5 -->
+<html> <!-- Sets the page to HTML 5 for compatibility with browsers -->
+	<head> <!-- Defines the Header of the page -->
+        
+        <meta name="author" content="Jordon Brooks" >
+		<meta name="description" content="Alien Wars sign-up">
+		<meta name="keywords" content="Jordon, Brooks, Jordon's, Software, jordonbc's, Website, GlassOS, Glass, OS,
+		Jpad, Open, Source, web, browser, JDE, Desktop, Environment, jordons, jordon, python, programming, software">
+        
+		<title>Jordon's Website - Alien Wars Err: 400</title> <!-- Sets the title of the page -->
+		<meta charset="UTF-8"> <!-- Sets the character set used the the website -->
+
+		<!-- Cascading Style sheets for the website -->		
+		
+		<link rel="stylesheet" type="text/css" href="https://jordonbc.bnettech.pw/main.css" media="screen and (min-width: 1000px)">
+		<link rel="stylesheet" type="text/css" href="https://jordonbc.bnettech.pw/mobile.css" media="screen and (max-width: 999px)">
+        
+        <link rel="stylesheet" type="text/css" href="https://jordonbc.bnettech.pw/styles/orange/orangeTheme.css">
+		
+		<!-- For the user Themes -->		
+		
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		<link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css' media="screen and (min-width: 1336px)">
+		
+		<link rel="alternate stylesheet" type="text/css" href="https://jordonbc.bnettech.pw/styles/dark/darkTheme.css" title="dark"> <!-- Dark Theme -->
+		
+		<script type="text/javascript" src="scripts/styleSwitcher.js"></script> <!-- JavaScript for the CSS Changer -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"> <!-- View-port -->
+	</head> <!-- Closes the header -->
+	<body> <!-- Defines the content of the page -->
+		<div align="center"> <!-- Center's the Navigation bar -->
+			<div class="topbar"> <!-- Defines the Top bar -->
+					<nav> <!-- The HTML 5 Navigation tags -->
+						<img src="images/title/logo.png" alt="My logo" width="60" height="60"/> <!-- Puts the logo on the website -->
+						
+						<!-- Links to most used webpages -->						
+												
+						<a href="https://jordonbc.bnettech.pw/index.html">Home</a>
+						<a href="https://jordonbc.bnettech.pw/software.html">Software</a>
+						<a href="https://jordonbc.bnettech.pw/hardware.html">Hardware</a>
+						<a href="https://jordonbc.bnettech.pw/cv.html">CV</a>
+						<a href="https://jordonbc.bnettech.pw/about.html">About</a>
+						<a href="https://jordonbc.bnettech.pw/links.html">Links</a>
+						<a href="https://jordonbc.bnettech.pw/sitemap.html">Sitemap</a>
+                        			<a href="https://jordonbc.bnettech.pw/games.html">Games</a>
+						
+						<!--<a href="help.html" style="float: right;">Help</a>-->
+					</nav> <!-- End of navigation -->
+				</div> <!-- End of topbar -->			
+			
+			<div class="wrapper" width="device-width">
+				<content> <!-- Tells the browser that this is content -->
+				    <h1 style="color: #F00">ERROR: <!--#echo var="REDIRECT_STATUS" --></h1>
+				    <p style="color: #F00; text-align: center;">Ther server recieved a bad request from the server!</p>
+					<!--<p style="color: #f00; text-align: center;">WARNING: DO NOT USE YOUR EVERYDAY PASSWORD IT IS NOT SECURE!</p>-->
+			</content>
+			</div>
+			<br>
+			<br>
+			<br>
+		</div>
+	</body>
+</html>

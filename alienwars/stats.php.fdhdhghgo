@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html><!-- Sets the page to HTML 5 for compatibility with browsers -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><!-- Defines the Header of the page --><meta name="author" content="Jordon Brooks" ><meta name="description" content="Alien Wars Stats"><meta name="keywords" content="Jordon, Brooks, Jordons, Software, jordonbcs, Website, GlassOS, Glass, OS,
+		Jpad, Open, Source, web, browser, JDE, Desktop, Environment, jordons, jordon, python, programming, software">
+	<title>Jordon&#39;s Website - Alien Wars Stats</title>
+	<!-- Sets the title of the page --><!-- Sets the character set used the the website --><!-- Cascading Style sheets for the website -->
+	<link href="../main.css" media="screen and (min-width: 1000px)" rel="stylesheet" type="text/css" />
+	<link href="../mobile.css" media="screen and (max-width: 999px)" rel="stylesheet" type="text/css" />
+	<link href="../styles/orange/orangeTheme.css" rel="stylesheet" type="text/css" /><!-- For the user Themes -->
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" media="screen and (min-width: 1336px)" rel="stylesheet" type="text/css" />
+	<link href="https://fonts.googleapis.com/css?family=Titillium+Web" media="screen and (min-width: 1336px)" rel="stylesheet" type="text/css" />
+	<link href="../styles/dark/darkTheme.css" rel="alternate stylesheet" title="dark" type="text/css" /><!-- Dark Theme --><script type="text/javascript" src="../scripts/styleSwitcher.js"></script><!-- JavaScript for the CSS Changer --><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><!-- View-port -->
+</head>
+<!-- Closes the header -->
+<body><!-- Defines the content of the page -->
+<div align="center"><!-- Center's the Navigation bar -->
+<div class="topbar"><!-- Defines the Top bar -->
+<nav><!-- The HTML 5 Navigation tags --><img alt="My logo" height="60" src="../images/title/logo.png" width="60" /> <!-- Puts the logo on the website --> <!-- Links to most used webpages --> <a href="../index.html">Home</a> <a href="../software.html">Software</a> <a href="../hardware.html">Hardware</a> <a href="../cv.html">CV</a> <a href="../about.html">About</a> <a href="../links.html">Links</a> <a href="../sitemap.html">Sitemap</a> <a href="../games.html">Games</a> <a href="https://forum.jordonbc.bnettech.pw">Forums</a> <a class="active" href="stats.php">Alien Wars Stats</a> <!--<a href="help.html" style="float: right;">Help</a>--></nav>
+<!-- End of navigation --></div>
+<!-- End of topbar -->
+
+<div class="wrapper" width="device-width"><content> <!-- Tells the browser that this is content -->
+<h1>Alien Wars Stats</h1>
+
+<?php
+ini_set("include_path", '/home/jordonbcx/php:' . ini_get("include_path") );
+
+include("Settings.php");
+connect();
+
+function generateTable($query, $title)
+{
+
+$result = mysql_query($query);
+
+if ($result) {
+
+echo
+'
+<h2>'.$title.'</h2>
+<table style="border: 1px grey solid; width: 80%; padding 0px;">
+	<tr>
+		<td style="border: 1px grey solid;">Prefix</td>
+		<td style="border: 1px grey solid;">Username</td>
+		<td style="border: 1px grey solid;">Level</td>
+		<td style="border: 1px grey solid;">Kills</td>
+		<td style="border: 1px grey solid;">Deaths</td>
+	</tr>
+';
+
+while($row = mysql_fetch_assoc($result)){
+    //iterate over all the fields
+    echo '<tr>';
+    foreach($row as $key => $val){
+        //generate output
+        if ($key != 'password') {
+        	if ($key != 'token') {
+        		if ($key != 'email') {
+        			if ($key != 'banreason') {
+        				if ($key != 'DateCreated') {
+        					if ($key != 'id') {
+        						echo '<td>'.$val.'</td>';
+        					}
+        				}
+        			}
+        		}
+        	}
+        }
+    }
+    echo '</tr>';
+}
+
+echo '</table>';
+}
+else {echo "There was a problem with getting table '.$title.'";}
+}
+
+//generateTable("SELECT * FROM members ORDER BY Level DESC LIMIT 3", 'Top Three Players (Level)');
+//generateTable("SELECT * FROM members ORDER BY Kills DESC LIMIT 3", 'Top Three Players (Kills)');
+//generateTable("SELECT * FROM members ORDER BY Deaths DESC LIMIT 3", 'Top Three Players (Deaths)');
+generateTable("SELECT * FROM members ORDER BY Level DESC LIMIT 10", 'Top Ten Players');
+//generateTable("SELECT * FROM members", 'All Users');
+
+?>
+<br>
+<br>
+</div>
+</body>
+</html>
