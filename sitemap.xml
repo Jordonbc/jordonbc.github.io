@@ -7,73 +7,67 @@
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>https://jordonbc.bnettech.pw/</loc>
+  <loc>index.html</loc>
   <lastmod>2016-02-02T22:25:24+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>1.00</priority>
+  <priority>1</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/index.html</loc>
-  <lastmod>2016-02-02T22:25:24+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://jordonbc.bnettech.pw/software.html</loc>
+  <loc>software.html</loc>
   <lastmod>2016-02-02T22:25:30+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/hardware.html</loc>
+  <loc>hardware.html</loc>
   <lastmod>2016-02-02T22:25:22+00:00</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/cv.html</loc>
+  <loc>cv.html</loc>
   <lastmod>2016-02-02T22:25:20+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/about.html</loc>
+  <loc>about.html</loc>
   <lastmod>2016-02-02T22:25:19+00:00</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/links.html</loc>
+  <loc>links.html</loc>
   <lastmod>2016-02-02T22:25:25+00:00</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/sitemap.html</loc>
+  <loc>sitemap.html</loc>
   <lastmod>2016-02-02T22:25:29+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/help.html</loc>
+  <loc>help.html</loc>
   <lastmod>2016-02-02T22:25:23+00:00</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/games.html</loc>
+  <loc>games.html</loc>
   <lastmod>2016-02-02T22:25:23+00:00</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/AlienWars/</loc>
+  <loc>AlienWars/</loc>
   <lastmod>2016-02-02T22:25:23+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>https://jordonbc.bnettech.pw/AlienWars/index.html</loc>
+  <loc>AlienWars/index.html</loc>
   <lastmod>2016-02-02T22:25:23+00:00</lastmod>
   <changefreq>daily</changefreq>
   <priority>0.90</priority>
